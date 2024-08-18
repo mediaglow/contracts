@@ -1,0 +1,166 @@
+/* General Styles */
+@font-face {
+    font-family: "KFGQPC";
+    src: url('../assets/KFGQPC.ttf');
+}
+
+/* @import url(./print.css); */
+html {
+    direction: rtl;
+    padding: 0 21px;
+    font-family: KFGQPC;
+    font-weight: 600;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.space,.links-disabled {
+    display: inline-block;
+    width: 25px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.label {
+    display: inline-block;
+    background-color: #DDD;
+    padding: 21px;
+}
+
+.links-disabled {
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+}
+
+.address{
+    display: inline-block;
+    width: 50px;
+
+}
+.address,.colored {
+    background-color: #82ff93;
+    border-radius: 7px;
+    text-align: center;
+}
+h1 {
+    padding: 21px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.d-none {
+    display: none;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex>label input:not(input[type="checkbox"]) {
+    width: 70px;
+}
+
+.flex>label input {
+    padding: 7px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 0 14px;
+}
+
+.docx {
+    width: 794px;
+}
+
+/* departments */
+.special {
+    width: 150px;
+    justify-content: flex-start !important;
+}
+
+.flex>label input.total {
+    width: 120px;
+}
+
+/* sections */
+.doxs-partial-header {
+    padding: 21px 0;
+}
+
+ol li {
+    margin: 0 21px 21px 21px;
+    line-height: 200%;
+}
+
+/* footer */
+table {
+    padding-top: 21px;
+}
+
+table,
+tr {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+td {
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 7px 21px;
+    width: 221px;
+    margin: 21px auto;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 7px;
+    font-size: 21px;
+}
+
+#pageborder {
+    position:fixed;
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    border: 1px solid black;
+  }
+
+  #pageborder2 {
+      position:fixed;
+      left: 0;
+      right: 0;
+      top: 0px;
+      bottom: 0;
+      border: 1px solid black;
+    }
+
+
+    .fixed-bottom {
+        position: fixed;
+        bottom: 70px;
+        width: 100%;
+    }

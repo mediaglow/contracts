@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عقد اتفاق - ميديا جلو</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="print" href="./css/print.css">
+</head>
+
+<body>
+    <div class="docx" id="docx">
+        <div id="pageborder"></div>
+        <div id="pageborder2"></div>
+        <header style="position: relative; z-index: 9999999;">
+            <h1>عقد اتفاق <br> من شركة ميديا جلو للدعاية والاعلان</h1>
+            <p>انه فى يوم : <span class="space"></span>/<span class="space"></span> /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;202
+                &nbsp;&nbsp; - &nbsp;&nbsp;الموافق يوم : </p>
+            <p>اتفق كلا من :</p>
+            <p>السيد / ................................... بصفتة مسئول تعاقدات فى شركة ميديا جلو للدعاية والتسويق
+                الالكتروني
+                ( طرف اول )</p>
+            <p>
+                والسيد / ................................... بصقتة صاحب / شريك / مسؤول نشاط باسم
+                ................................... </p>
+            <p>
+                وعنوان النشاط : ................................... رقم موبايل الشخصي :
+                ...................................
+                ( طرف ثاني )
+            </p>
+        </header>
+        <main style="position: relative; z-index: 9999999;">
+            <section class="document-controller">
+            </section>
+            <!-- pands for docx -->
+            <label for="pand1" class="not-important label removed-in-print">
+                <input type="checkbox" onchange="addToDocx(this, this.name)" name="pand1">
+                <span class="large">بنود الاتفاق</span>
+            </label>
+            <section class="d-none pand1">
+                <h3 class="doxs-partial-header">واتفق الطرفان على ما يلى : </h3>
+                <ol>
+                    <li>
+                        ان تكون شركة ميديا جلو للدعاية والاعلان والتسويق الالكترونى ( الطرف الاول ) هى المسؤولة عن ادارة
+                        الحملات الاعلانية والتسويقية وادارة الحسابات الاعلانية والصفحات الخاصة بنشاط العميل ( الطرف
+                        الثانى ) حتى انتهاء التعاقد بين الطرفين.
+
+                    </li>
+                    <li>
+                        ان تكون مدة التعاقد بين الطرفين هى ...................... تبدا فى :
+                        <span class="space"></span>
+                        /
+                        <span class="space"></span>
+                        /
+                        <span class="space"></span>
+                        وتنتهى فى :
+                        <span class="space"></span>
+                        /
+                        <span class="space"></span>
+                        /
+                        <span class="space"></span>
+                        <br>
+                        ويتم تجديد
+                        العقد لمدة مماثلة ان لم يخطر احد الطرفين بالاخر قبل التجديد بعدد 15 يوم على الاقل ويمكن الاخطار
+                        بعدم التجديد عن طريق وسيلة التواصل بينهما هاتفيا او عن طريق الواتس اب بينهما.
+                    </li>
+                </ol>
+                <p>
+                    والعقد مبرم بين الطرفين للعمل على المنصات الاتية :
+                <div>
+                    <label for="facebook" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="facebook"></span>
+                        <span class="links-disabled">فيس بوك</span>
+                    </label>
+                    <label for="twitter" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="twitter"></span>
+                        <span class="links-disabled">تويتر</span>
+                    </label>
+                    <label for="instagram" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="instagram"></span>
+                        <span class="links-disabled">انستجرام</span>
+                    </label>
+                    <label for="tiktok" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="tiktok"></span>
+                        <span class="links-disabled">تيك توك</span>
+                    </label>
+                    <label for="yotube" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="yotube"></span>
+                        <span class="links-disabled">يوتيوب</span>
+                    </label>
+                    <label for="snap" class="not-important">
+                        <span><input type="checkbox" class="removed-in-print" onchange="CheckIfAdded(this)" name="snap"></span>
+                        <span class="links-disabled">سناب</span>
+                    </label>
+                </div>
+                </p>
+            </section>
+
+            <!-- Designs -->
+            <label for="pand2" class="not-important pand2-label label label-pand2 removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name); changePosition(this,'design')" name="pand2">
+                <span class="large">التصميمات</span>
+            </label>
+            <section class="d-none pand2">
+                <div class="design-toPage2"></div>
+                <div class="design-toPage3"></div>
+                <div class="design-toPage4"></div>
+                <div class="design-toPage5"></div>
+                <div class="design-toPage6"></div>
+                <h2>التصميمات</h2>
+                <!-- Socail Media -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>سوشيال ميديا</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">العدد</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+                <!-- Logo -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>لوجو (الشعار)</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">العدد</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+                <!-- Other -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this);" name="social-media">
+                        <span>تصميمات اخرى</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">العدد</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+                <!-- identity -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>هوية بصرية</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">
+                            الصفحات
+                        </span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">ملاحظات</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Ads -->
+            <label for="pand3" class="not-important pand3-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name); changePosition(this,'ads')" name="pand3">
+                <span class="large">الاعلانات</span>
+            </label>
+            <section class="d-none pand3">
+                <div class="ads-toPage2"></div>
+                <div class="ads-toPage3"></div>
+                <div class="ads-toPage4"></div>
+                <div class="ads-toPage5"></div>
+                <div class="ads-toPage6"></div>
+                <h2>الاعلانات</h2>
+                <!-- facebook -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>اعلانات الفيس بوك</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الايام</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الميزانية</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+                <!-- جوجل -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>اعلانات جوجل</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address"> الايام</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الميزانية</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+
+                <!-- instagram -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>اعلانات انستجرام</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address"> الايام</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الميزانية</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+                <!-- Other -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>................................</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address"> الايام</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الميزانية</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Moderator -->
+            <label for="pand4" class="not-important pand4-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name); changePosition(this,'moderator')" name="pand4">
+                <span class="large">ادارة الصفحات</span>
+            </label>
+            <section class="d-none pand4">
+                <div class="moderator-toPage2"></div>
+                <div class="moderator-toPage3"></div>
+                <div class="moderator-toPage4"></div>
+                <div class="moderator-toPage5"></div>
+                <div class="moderator-toPage6"></div>
+                <h2>ادارة الصفحات</h2>
+                <!-- part 1 -->
+                <div class="flex not-important" style="padding: 7px 0px">
+                    <label class="flex">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>
+                            نشر المحتوى الاعلان و ( الرد على الرسائل والتعليقات لمدة 8 ساعات يوميا ) ومتابعة الصفحة من
+                            الساعه ..... : ..... <span style="font-size: 21px;">=</span> 500ج
+                        </span>
+                    </label>
+
+                </div>
+
+                <!-- part 2 -->
+                <div class="flex not-important" style="padding: 7px 0px">
+                    <label class="flex">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>
+                            نشر المحتوى الاعلان والمنشورات و( الرد على الرسائل والتعليقات لمدة 12 ساعة يوميا ) ومتابعة
+                            الصفحة من الساعه
+                            ........ : .......... ومشاركة المنشورات على جروبات تفيد النشاط ومتابعة الصفحات <span
+                                style="font-size: 21px;">=</span> 800 جنية
+                        </span>
+                    </label>
+
+                </div>
+
+                <!-- part 3 -->
+                <div class="flex not-important" style="padding: 7px 0px">
+                    <label class="flex">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>
+                            نشر المحتوى الاعلانى والمنشورات و( الرد على الرسائل والتعليقات لمدة 12 ساعة يوميا ) ومتابعة
+                            الصفحة من الساعه
+                            ........ : .......... ومشاركة المنشورات على جروبات تفيد النشاط ومتابعة الصفحة ورفع اداء
+                            المنشورات <span style="font-size: 21px;">=</span> 1200 جنية
+
+                        </span>
+                    </label>
+
+                </div>
+            </section>
+
+            <!-- Reels -->
+            <label for="pand5" class="not-important pand5-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name)" name="pand5">
+                <span class="large">التصوير</span>
+            </label>
+            <section class="d-none pand5">
+                <!-- <div class="moderator-toPage2"></div>
+                <div class="moderator-toPage3"></div>
+                <div class="moderator-toPage4"></div>
+                <div class="moderator-toPage5"></div>
+                <div class="moderator-toPage6"></div> -->
+                <h2>التصوير</h2>
+                <!-- part 1 -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>منتجات</span>
+                    </label>
+                    <label class="flex">
+                        <span class="address">المنتجات</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الصور</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+
+                <!-- part 2 -->
+                <div class="flex not-important">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>ريلز </span>
+                    </label>
+                    <label class="hidden">
+                        <span class="address">العدد</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">العدد</span>
+                        <input type="number" disabled>
+                    </label>
+                    <label class="flex">
+                        <span class="address">السعر</span>
+                        <input type="number" class="total"disabled>
+                    </label>
+
+                    <label class="flex">
+                        <span class="address">الاجمالى</span>
+                        <p><input type="text" class="total" disabled></p>
+                    </label>
+                </div>
+
+                <!-- part 3 -->
+                <div class="flex not-important">
+                    <label class="flex special" style="width: 17%;">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>برومو اعلانى </span>
+                    </label>
+                    <label class="flex" style="width: 73%;">
+                        <span class="colored">سعر تصوير فيديو برومو اعلانى </span>
+                        <input type="number" min="1" style="display: block; width: 55%;">
+                    </label>
+                    <div>
+                    </div>
+
+            </section>
+
+            <!-- cashair -->
+            <label for="pand6" class="not-important pand6-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name)" name="pand6">
+                <span class="large">الكاشير</span>
+            </label>
+            <section class="d-none pand6">
+
+                <h2>الكاشير</h2>
+                <!-- part 1 -->
+                <div class="flex not-important" style="padding: 21px 0 42px;">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>برنامج كاشير</span>
+                    </label>
+                    <label for="">
+                        <span>سعرالبرنامج  = ...................................</span>
+                    </label>
+                    <label for="" style="width: 50%;">
+                        <span>التفاصيل: </span>
+                    </label>
+                </div>
+
+            </section>
+
+            <!-- Web -->
+            <label for="pand7" class="not-important pand7-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name)" name="pand7">
+                <span class="large">المواقع الالكترونية</span>
+            </label>
+            <section class="d-none pand7">
+
+                <h2>المواقع الالكترونية</h2>
+                <!-- part 1 -->
+                <div class="flex not-important" style="padding: 21px 0 42px;">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>موقع الكتروني</span>
+                    </label>
+                    <label for="">
+                        <span>السعر  = ...................................</span>
+                    </label>
+                    <label for="" style="width: 50%;">
+                        <span>التفاصيل: </span>
+                    </label>
+                </div>
+
+            </section>
+
+            
+            <!-- Prints -->
+            <label for="pand8" class="not-important pand8-label label removed-in-print">
+                <input type="checkbox" class="removed-in-print" onchange="addToDocx(this, this.name)" name="pand8">
+                <span class="large">المطبوعات</span>
+            </label>
+            <section class="d-none pand8">
+                <h2>المطبوعات</h2>
+                <!-- part 1 -->
+                <div class="flex not-important" style="padding: 21px 0 42px;">
+                    <label class="flex special">
+                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                        <span>المطبوعات</span>
+                    </label>
+                    <label for="" style="width: 80%;">
+                        <span>التفاصيل: </span>
+                    </label>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="fixed-bottom" id="signature">
+            <table>
+                <tr>
+                    <td>الاسم / التوقيع المتعاقد (الطرف الاول)</td>
+                    <td>اسم العميل (الطرف الثاني)</td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+    <button onclick="printDocx()" style="position: relative; z-index: 9999999;">طباعة</button>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

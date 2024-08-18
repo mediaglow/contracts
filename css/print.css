@@ -1,0 +1,36 @@
+
+
+    /* All your print styles go here */
+    .large {
+        display: inline-block;
+        padding: 7px;
+        margin-bottom: 21px;
+        margin-top: 21px;
+        font-size: 22px;
+        font-weight: 600;
+        border-bottom: 1px solid #000;
+    }
+
+    .not-important {
+        display: none !important;
+        overflow: hidden;
+        color: blueviolet;
+    }
+
+    .pand2-label {
+        /* display: block; */
+        margin-top: 35px;
+    }
+
+    #docx {
+        border: 1px double #00f;
+    }
+
+    .removed-in-print{
+        display: none;
+    }
+
+    .show-in-print {
+        height: 300px;
+        width: 100%;
+    }
