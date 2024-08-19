@@ -86,7 +86,7 @@ p {
 }
 
 .docx {
-    width: 794px;
+    width: 1224px;
 }
 
 /* departments */
@@ -125,6 +125,7 @@ td {
 
 td {
     text-align: center;
+    font-weight: 600;
 }
 
 button {
@@ -163,4 +164,9 @@ button {
         position: fixed;
         bottom: 70px;
         width: 100%;
+    }
+
+
+    .hidden {
+        display: none;
     }

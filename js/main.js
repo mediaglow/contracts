@@ -2,7 +2,7 @@
 function addToDocx(el, parent) {
 
     let dataContainer = document.getElementsByClassName(`${parent}`)[0];
-
+    console.log("div:"+dataContainer)
     if (el.checked) {
         el.parentElement.classList.remove('not-important');
         dataContainer.classList.remove('d-none')
@@ -49,28 +49,32 @@ function changePosition(clickedItem, item) {
     if (clickedItem.checked) {
         const rect = clickedItem.getBoundingClientRect();
         const position = rect.top + window.scrollY;
-        if (position > 850 && position < 900) {
+        if (position > 830 && position < 850) {
             check(item + '-toPage2');
-            console.log(position);
+            let cssClass = '.'+item + '-toPage2'; 
+            let element = document.querySelector(cssClass); 
+            // console.log(position);
+            element.parentElement.classList.add('negative-margin')
+            // console.log("el",element.parentElement);
         }
-        else if (position > 1920 && position < 2100) {
-            check(item + '-toPage3');
-        }
-        else if (position > 2640 && position < 2700) {
-            check(item + '-toPage4')
+        // else if (position > 1920 && position < 2100) {
+        //     check(item + '-toPage3');
+        // }
+        // else if (position > 2640 && position < 2700) {
+        //     check(item + '-toPage4')
 
-        }
-        else if (position > 3520 && position < 3600) {
+        // }
+        // else if (position > 3520 && position < 3600) {
 
-            check(item + '-toPage5')
+        //     check(item + '-toPage5')
 
-        }
-        else if (position > 4400 && position < 4500) {
+        // }
+        // else if (position > 4400 && position < 4500) {
 
-            check(item + '-toPage6')
-        } else {
-            console.log(position)
-        }
+        //     check(item + '-toPage6')
+        // } else {
+        //     console.log(position)
+        // }
     }
 
 
@@ -78,8 +82,15 @@ function changePosition(clickedItem, item) {
 
 function check(page) {
     let div = document.querySelector(`.${page}`);
-    console.log(div)
+    console.log(`.${page}`)
     div.classList.add('show-in-print')
     // div.style.width = '100%';
 
 }
+
+
+function removeHiddenClass() {
+    document.querySelector('#new-facebook-ads').classList.remove('hidden')
+}
+
+// document.querySelectorAll('div')

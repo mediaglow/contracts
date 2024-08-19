@@ -34,3 +34,11 @@
         height: 300px;
         width: 100%;
     }
+
+    .docx {
+        width: 794px;
+    }
+
+    .negative-margin {
+        margin-top: -105px;
+    }
