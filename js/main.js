@@ -89,8 +89,8 @@ function check(page) {
 }
 
 
-function removeHiddenClass() {
-    document.querySelector('#new-facebook-ads').classList.remove('hidden')
+function removeHiddenClass(el) {
+    document.getElementById(el).classList.remove('hidden')
 }
 
 // document.querySelectorAll('div')

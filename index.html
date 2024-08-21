@@ -259,131 +259,307 @@
                     <div class="removed-in-print">
                         <button class="removed-in-print"
                             style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
-                            onclick="removeHiddenClass()"><img src="./assets/plus.svg" alt="plus"
-                                style="width: 100%;"></button>
+                            onclick="removeHiddenClass('new-facebook-ads')">
+                            <img src="./assets/plus.svg" alt="plus" style="width: 100%;"></button>
 
                     </div>
                 </div>
 
                 <!-- جوجل -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات جوجل</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
+                <div>
+                    <div class="flex not-important">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات جوجل</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="flex not-important hidden" id="new-google-ads">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات جوجل</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-google-ads')">
+                            <img src="./assets/plus.svg" alt="plus" style="width: 100%;"></button>
+
+                    </div>
                 </div>
 
                 <!-- instagram -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات انستجرام</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
+                <div>
+                    <div class="flex not-important">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات انستجرام</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="flex not-important hidden" id="new-insta-ads">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات انستجرام</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-insta-ads')">
+                            <img src="./assets/plus.svg" alt="plus" style="width: 100%;"></button>
+
+                    </div>
                 </div>
 
+
                 <!-- twitter -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات تويتر</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
+                <div>
+                    <div class="flex not-important">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات تويتر</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+                    <div class="flex not-important hidden" id="new-twitter-ads">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات تويتر</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-twitter-ads')">
+                            <img src="./assets/plus.svg" alt="plus" style="width: 100%;"></button>
+
+                    </div>
                 </div>
 
                 <!-- tiktok -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات تيك توك</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
+                <div>
+                    <div class="flex not-important">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات تيك توك</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="flex not-important hidden" id="new-tiktok-ads">
+                        <label class="flex special">
+                            <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                            <span>اعلانات تيك توك</span>
+                        </label>
+                        <label class="flex">
+                            <span class="address"> عدد الايام</span>
+                            <input type="number" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">الميزانية اليومية</span>
+                            <input type="number" class="total" disabled>
+                        </label>
+                        <label class="flex">
+                            <span class="address">اجمالى الميزانية </span>
+                            <p><input type="text" class="total" disabled></p>
+                        </label>
+                    </div>
+
+                    <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-tiktok-ads')">
+                            <img src="./assets/plus.svg" alt="plus" style="width: 100%;">
+                        </button>
+
+                    </div>
                 </div>
 
                 <!-- youtube -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات يوتيوب</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
-                </div>
+                 <div>
+                     <div class="flex not-important">
+                         <label class="flex special">
+                             <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                             <span>اعلانات يوتيوب</span>
+                         </label>
+                         <label class="flex">
+                             <span class="address"> عدد الايام</span>
+                             <input type="number" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">الميزانية اليومية</span>
+                             <input type="number" class="total" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">اجمالى الميزانية </span>
+                             <p><input type="text" class="total" disabled></p>
+                         </label>
+                     </div>
+                     
+                     <div class="flex not-important hidden" id="new-youtube-ads">
+                         <label class="flex special">
+                             <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                             <span>اعلانات يوتيوب</span>
+                         </label>
+                         <label class="flex">
+                             <span class="address"> عدد الايام</span>
+                             <input type="number" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">الميزانية اليومية</span>
+                             <input type="number" class="total" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">اجمالى الميزانية </span>
+                             <p><input type="text" class="total" disabled></p>
+                         </label>
+                     </div>
+
+                     <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-youtube-ads')">
+                            <img src="./assets/plus.svg" alt="plus"
+                                style="width: 100%;"></button>
+
+                    </div>
+                 </div>
 
                 <!-- snap -->
-                <div class="flex not-important">
-                    <label class="flex special">
-                        <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
-                        <span>اعلانات سناب</span>
-                    </label>
-                    <label class="flex">
-                        <span class="address"> عدد الايام</span>
-                        <input type="number" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">الميزانية اليومية</span>
-                        <input type="number" class="total" disabled>
-                    </label>
-                    <label class="flex">
-                        <span class="address">اجمالى الميزانية </span>
-                        <p><input type="text" class="total" disabled></p>
-                    </label>
-                </div>
+                 <div>
+                     <div class="flex not-important">
+                         <label class="flex special">
+                             <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                             <span>اعلانات سناب</span>
+                         </label>
+                         <label class="flex">
+                             <span class="address"> عدد الايام</span>
+                             <input type="number" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">الميزانية اليومية</span>
+                             <input type="number" class="total" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">اجمالى الميزانية </span>
+                             <p><input type="text" class="total" disabled></p>
+                         </label>
+                     </div>
+                     <div class="flex not-important hidden" id="new-snap-ads">
+                         <label class="flex special">
+                             <input type="checkbox" onchange="CheckIfAdded(this)" name="social-media">
+                             <span>اعلانات سناب</span>
+                         </label>
+                         <label class="flex">
+                             <span class="address"> عدد الايام</span>
+                             <input type="number" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">الميزانية اليومية</span>
+                             <input type="number" class="total" disabled>
+                         </label>
+                         <label class="flex">
+                             <span class="address">اجمالى الميزانية </span>
+                             <p><input type="text" class="total" disabled></p>
+                         </label>
+                     </div>
+
+                     <div class="removed-in-print">
+                        <button class="removed-in-print"
+                            style="width: 70px;margin:7px;display: inline-block; background-color: transparent;border: 0;"
+                            onclick="removeHiddenClass('new-snap-ads')">
+                            <img src="./assets/plus.svg" alt="plus"
+                                style="width: 100%;"></button>
+
+                    </div>
+                 </div>
 
                 <!-- Other -->
                 <div class="flex not-important">
